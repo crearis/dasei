@@ -11,6 +11,7 @@ node_modules
 .obsidian
 apps/home/.obsidian
 apps/home/_intern
+.trash
 
 # Misc
 .DS_Store
