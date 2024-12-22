@@ -10,7 +10,7 @@ export default defineNuxtConfig({
     plugins: ['plugins/content.ts'],
     prerender: {
       crawlLinks: true,
-      routes: ['/blog/theaterpaedagogik-demokratie-10/', '/blog', '/agenda'],
+      routes: ['/blog', '/agenda'],
       ignore: ['/api', '/details', '/cart'],
     },
   },

@@ -6,7 +6,7 @@
       logoAlt="DAS Ei"
       logoSmall="https://pruvious.com/uploads/logo-dasei-small.svg"
     >
-      <MainMenu v-model:items="mainMenu.items" :hideFolders="['/blog/', '/agenda/']" :linkComponent="NuxtLink" />
+      <MainMenu v-model:items="mainMenu.items" :linkComponent="NuxtLink" />
     </Sidebar>
 
     <Main>
@@ -94,7 +94,7 @@ const route = useRoute()
 // .filter((item) => !hideFolders.includes(item.link!)) // filter out items that are in the hideFolders list
 
 const mainMenu = useMainMenu()
-mainMenu.value.items = mainMenu.value.items.filter((item) => item.link !== '/blog/' && item.link !== '/agenda/')
+// mainMenu.value.items = mainMenu.value.items.filter((item) => item.link !== '/blog/' && item.link !== '/agenda/')
 
 </script>
 
