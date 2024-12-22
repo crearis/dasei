@@ -48,6 +48,15 @@ const props = defineProps({
     type: String as PropType<'agenda' | 'blog'>,
     default: 'agenda',
   },
+    /**
+   *
+   *
+   * @default ''
+   */
+   subfolder: {
+    type: String,
+    default: '',
+  },
   /**
    *
    *
@@ -80,7 +89,8 @@ const folder = props.custom_folder ? props.custom_folder : props.preset === 'blo
 
 const getPath = (folder: 'agenda' | 'blog' | string | undefined) => {
   if (!folder) return ''
-  return `${folder.startsWith('/') ? '' : '/'}${folder}`
+  if (props.subfolder === '') return folder.startsWith('/') ? folder : `/${folder}`
+  return `${folder.startsWith('/') ? '' : '/'}${folder}${props.subfolder.startsWith('/') ? '' : '/' + props.subfolder}`
 }
 
 import type { QueryBuilderParams } from '@nuxt/content'

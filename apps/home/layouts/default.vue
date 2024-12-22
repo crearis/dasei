@@ -6,7 +6,7 @@
       logoAlt="DAS Ei"
       logoSmall="https://pruvious.com/uploads/logo-dasei-small.svg"
     >
-      <MainMenu v-model:items="mainMenu.items" />
+      <MainMenu v-model:items="mainMenu.items" :linkComponent="NuxtLink" />
     </Sidebar>
 
     <Main>

@@ -25,12 +25,7 @@ const slots = defineSlots<{
 }>()
 
 onMounted(() => {
-  watch(slots.default()[0].children, () => {
-    if (!slots.default()[0].children) return
-    debugger
-    tabTitles.value = [...(slots.default!()[0].children as any)].map((tab: any) => tab.props.title)
-  })
-  // console.log(slots.default!()[0].children)
+  tabTitles.value = [...(slots.default!()[0].children as any)].map((tab: any) => tab.props.title)
   // tabTitles.value = [...(slots.default!()[0].children as any)].map((tab: any) => tab.props.title)
 })
 
@@ -39,6 +34,7 @@ watch(activeTab, () => {
     ;(el as HTMLElement).style.display = i === activeTab.value ? 'block' : 'none'
   }
 })
+
 </script>
 
 <style>
