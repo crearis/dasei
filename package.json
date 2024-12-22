@@ -15,6 +15,7 @@
   "type": "module",
   "scripts": {
     "start": "node .output/server/index.mjs ",
+    "start:home": "pnpm --filter=home start",
     "build": "nuxt build --log-level=verbose",
     "codegen": "graphql-codegen",
     "prepare:sfui": "pnpm --filter=sfui prepare",

@@ -3,7 +3,7 @@
     <ul>
       <MainMenuItem
         v-for="item in items"
-        :hidden="!item.path || hideFolders.includes(item.path)"
+        :hidden="!item.path || mounted && hideFolders.includes(item.path)"
         :to="item.link"
         :item="item"
         :linkComponent="linkComponent"
@@ -21,8 +21,10 @@
 
 <script lang="ts" setup>
 import type { Component, PropType } from 'vue'
+import {onMounted, ref } from 'vue'
 import { RouterLink } from 'vue-router'
 import MainMenuItem, { type MainMenuParentItem } from './MainMenuItem.vue'
+import { on } from 'events';
 
 defineProps({
   /**
@@ -66,6 +68,12 @@ defineProps({
 defineEmits<{
   'update:items': [items: MainMenuParentItem[]]
 }>()
+
+const mounted = ref(false)
+onMounted(() => {
+  mounted.value = true
+})
+
 </script>
 
 <style scoped>
