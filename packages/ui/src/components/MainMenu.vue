@@ -3,6 +3,7 @@
     <ul>
       <MainMenuItem
         v-for="item in items"
+        :hidden="!item.path || hideFolders.includes(item.path)"
         :to="item.link"
         :item="item"
         :linkComponent="linkComponent"
@@ -30,6 +31,14 @@ defineProps({
   items: {
     type: Array as PropType<MainMenuParentItem[]>,
     required: true,
+  },
+
+  /**
+   * Do not display these folders in the menu.
+   */
+  hideFolders: {
+    type: Array as PropType<string[]>,
+    default: () => [],
   },
 
   /**
