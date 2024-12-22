@@ -1,35 +1,38 @@
 <template>
   <form @submit.prevent="$emit('on-save', contactInfo)" data-testid="contact-information-form">
+    <div class="flex items-center mt-4 w-full">
+      <label class="min-w-[130px]">
+        <UiFormLabel>Vorname</UiFormLabel>
+        <SfInput v-model="contactInfo.vorname" name="vorname" required type="text" />
+      </label>
+      <label class="min-w-[160px]">
+        <UiFormLabel>Nachname</UiFormLabel>
+        <SfInput v-model="contactInfo.nachname" name="nachname" required type="text" />
+      </label> 
+    </div>
     <label>
-      <UiFormLabel>Vorname</UiFormLabel>
-      <SfInput v-model="contactInfo.vorname" name="vorname" required type="text" />
-    </label>
-    <label>
-      <UiFormLabel>Nachname</UiFormLabel>
-      <SfInput v-model="contactInfo.nachname" name="nachname" required type="text" />
-    </label>   
-    <label>
-      <UiFormLabel>Straße</UiFormLabel>
+      <UiFormLabel class="mt-4">Straße</UiFormLabel>
       <SfInput v-model="contactInfo.strasse" name="strasse" required type="text" />
-    </label>   
-    <label>
-      <UiFormLabel>PLZ</UiFormLabel>
-      <SfInput v-model="contactInfo.plz" name="plz" required type="text" />
-    </label>   
-    <label>
-      <UiFormLabel>Ort</UiFormLabel>
-      <SfInput v-model="contactInfo.ort" name="ort" required type="text" />
     </label>  
+    <div class="flex items-center mt-4">
+      <label>
+        <UiFormLabel>PLZ</UiFormLabel>
+        <SfInput v-model="contactInfo.plz" name="plz" required type="text" />
+      </label>   
+      <label class="min-w-[200px]">
+        <UiFormLabel>Ort</UiFormLabel>
+        <SfInput v-model="contactInfo.ort" name="ort" required type="text" />
+      </label>
+    </div>   
     <label>
-      <UiFormLabel>Mobil-Tel</UiFormLabel>
+      <UiFormLabel class="mt-4">Mobil-Tel</UiFormLabel>
       <SfInput v-model="contactInfo.mobil" name="mobil" required type="text" />
     </label>                    
-    <div class="mt-4"></div>
     <label>
-      <UiFormLabel>eMail-Adresse</UiFormLabel>
+      <UiFormLabel class="mt-4">eMail-Adresse</UiFormLabel>
       <SfInput v-model="contactInfo.email" name="email" required type="email" />
     </label>
-    <div class="mt-4 flex flex-col-reverse md:flex-row md:justify-end">
+    <div class="mt-8 flex flex-col-reverse md:flex-row md:justify-end">
       <SfButton @click="$emit('on-cancel')" type="reset" variant="secondary" class="md:mr-4">
         Abbrechen
       </SfButton>

@@ -8,6 +8,18 @@ export interface FormContactInformationProps {
   mobil?: string
 }
 
+export interface FormChecksAndSummaryProps {
+  agb?: boolean
+  datenschutz?: boolean
+  ruecktritt?: boolean
+  anmerkungen?: string
+  alabel?: string
+  dlabel?: string
+  rlabel?: string
+  mailheading?: string
+  kosten?: string
+}
+
 export interface CheckoutRecord {
   basistag: string
   ratentyp: string

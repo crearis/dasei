@@ -55,6 +55,13 @@ const contactInfo = ref<FormContactInformationProps>({
   mobil: '',
 })
 
+const checksAndSummary = ref<FormChecksAndSummaryProps>({
+  agb: false,
+  datenschutz: false,
+  ruecktritt: false,
+  anmerkungen: '',
+})
+
 const checkoutRecord: CheckoutRecord = {
   basistag: '-',
   ratentyp: 'Standard',
@@ -94,6 +101,7 @@ const steps_outro: CheckoutStep[] = [
   {
     name: 'checks',
     title: 'Buchung',
+    header: '### **Buchung**',
     description: 'Anmeldung vorläufig nur per eMail möglich',
     completed: false,
   },
@@ -117,8 +125,18 @@ Object.assign(steps_outro[1], product_steps.find(step => step.name === 'checks')
 const allsteps = ref<CheckoutStep[]>(product_steps.filter(s => s.name !== 'kontakt' && s.name !== 'checks').concat(steps_outro))
 
 const handle_completestep = () => {
-  if(activestep.value === allsteps.value.length) {
+  if(stepProps.value.name === 'checks') {
     handle_checkout()
+    .then(() => {
+      allsteps.value[activestep.value - 1].completed = true
+    })
+    .catch(() => {
+      alert('Es kam leider zu einem Fehler bei der Anmeldung (technisches Problem). Bitte melde dich per eMail an: service@dasei.eu.')
+    })
+  } else if(stepProps.value.name === 'kontakt') {
+    handle_update_contact()
+    allsteps.value[activestep.value - 1].completed = true
+    activestep.value++
   } else {
     allsteps.value[activestep.value - 1].completed = true
     activestep.value++
@@ -133,20 +151,23 @@ const handle_backwards = () => {
   }
 }
 
-const handle_checkout = async () => {
+const handle_update_contact = () => {
   checkoutRecord.mailbody = mailbody.value
-  checkoutRecord.email = contactInfo.value.email  || ''
-  checkoutRecord.name = contactInfo.value.nachname  || ''
-  checkoutRecord.vorname = contactInfo.value.vorname  || ''
-  checkoutRecord.strasse = contactInfo.value.strasse  || ''
-  checkoutRecord.ort = contactInfo.value.ort  || ''
-  checkoutRecord.plz = contactInfo.value.plz  || ''
-  checkoutRecord.mobil = contactInfo.value.mobil  || ''
+  checkoutRecord.email = contactInfo.value.email  ?? ''
+  checkoutRecord.name = contactInfo.value.nachname  ?? ''
+  checkoutRecord.vorname = contactInfo.value.vorname  ?? ''
+  checkoutRecord.strasse = contactInfo.value.strasse  ?? ''
+  checkoutRecord.ort = contactInfo.value.ort  ?? ''
+  checkoutRecord.plz = contactInfo.value.plz  ?? ''
+  checkoutRecord.mobil = contactInfo.value.mobil  ?? ''
+}
+
+const handle_checkout = async () => {
+  checkoutRecord.anmerkungen = checksAndSummary.value.anmerkungen ?? ''
   checkoutRecord.start = props.product.start ? props.product.start.toString() : ''
   checkoutRecord.ende = props.product.ende ? props.product.ende.toString() : ''
   checkoutRecord.actionstep = props.product.id ? props.product.id : props.product.shortcode ? props.product.shortcode : ''
   checkoutRecord.json = JSON.stringify(checkoutRecord)
-  console.log(checkoutRecord)
   const data = await $fetch('https://prod-53.westeurope.logic.azure.com:443/workflows/e24e854998a44b8990cb883f006b0612/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=lQRSV83cnOJ69qBn_SWojAazlEcoZu8yntN4m_ZhFec', {
       method: 'post',
       body: checkoutRecord,
@@ -215,15 +236,23 @@ const person = computed(() => {
   return `\n\r<strong>Diese Anmeldung wurde erstellt von:</strong><br />${contactInfo.value.vorname} ${contactInfo.value.nachname}<br>${contactInfo.value.strasse}<br>${contactInfo.value.plz} ${contactInfo.value.ort}<br>Telefon: ${contactInfo.value.mobil}<br>Email: ${contactInfo.value.email}`
 })
 
+const programm = computed(() => {
+  return `\n\r<h2 style='font-size:20px; font-weight:700;'>Programm</h2>\n\r<p>Das detaillierte Programm inklusive Veranstaltungs-Ort(en) schicken wir nach einer Bearbeitungszeit von ca. 1 Woche</p>`
+})
+
+
 const mailheading = computed(() => {
   const headtext = props.heading ? props.heading : props.product.heading ? props.product.heading.toString() : 'Details'
   if (headtext) {
-    return renderMdProp(headtext, 'h2', true)
+    if (!headtext.startsWith('#')) {
+      return renderMdProp('## ' + headtext, 'h1', true)
+    }
+    return renderMdProp(headtext, 'h1', true)
   }
 })
 
 const mailbody = computed(() => {
-  return mailheading.value + '\n\r' + zahlungsmodell.value + '\n\r' + storno.value + '\n\r' + [checkoutRecord.anmerkungen.length > 1 ? checkoutRecord.anmerkungen : ''] + '\n\r' + person.value + '\n\r' + datenschutz.value + '\n\r' + agb.value + '\n\r' + ruecktritt.value
+  return mailheading.value + '\n\r' + zahlungsmodell.value + '\n\r' + storno.value + '\n\r' + [checkoutRecord.anmerkungen.length > 1 ? "<br /> " + checkoutRecord.anmerkungen : ''] + '\n\r<br />' + programm.value + '\n\r<br />' + person.value + '\n\r<br />' + datenschutz.value + '\n\r<br />' + agb.value + '\n\r<br />' + ruecktritt.value
 })
 
 const shortcodeTitle = (shortcode: String | undefined, title: String) => {
@@ -253,6 +282,7 @@ const getRootPath = (root: string | undefined) => {
         v-for="(step, index) in allsteps"
         :step="index + 1"
         :completed="step.completed"
+        :disabled="index === allsteps.length-1"
         :key="index"
         class="w-full flex justify-center gap-2 cursor-pointer group data-[disabled]:pointer-events-none relative px-4"
         :title="step.title"
@@ -339,7 +369,30 @@ const getRootPath = (root: string | undefined) => {
           @on-cancel="contactInfo = {email: '',  vorname: '',  nachname: '',  plz: '',  ort: '',  strasse: '',  mobil: '',}; handle_backwards()"
           v-if="stepProps.name === 'kontakt'" 
         />
-        <div v-if="stepProps.info">
+        <UiFormChecksAndSummary 
+          :agb="checksAndSummary.agb" 
+          :datenschutz="checksAndSummary.datenschutz" 
+          :ruecktritt="checksAndSummary.ruecktritt" 
+          :anmerkungen="checksAndSummary.anmerkungen" 
+          :alabel="agb" 
+          :dlabel="datenschutz" 
+          :rlabel="ruecktritt"
+          :mailheading="mailheading"
+          :kosten="zahlungsmodell"
+          @on-save="checksAndSummary = $event; handle_completestep()" 
+          @on-cancel="checksAndSummary = {agb: false,  datenschutz: false,  ruecktritt: false,  anmerkungen: ''}; handle_backwards()"
+          v-if="stepProps.name === 'checks' && stepProps.completed === false" 
+        />
+        <div v-else-if="stepProps.name === 'checks' && stepProps.completed">
+          <Prose>
+            <h2>Vielen Dank für deine Buchung</h2>
+            <p class="mb-8">Derzeit sind Weihnachtsferien - Du erhältst ab 7. Januar eine Bestätigung / Rückmeldung von uns.</p>
+          </Prose>
+          <ButtonTmp to="/" class="cursor-pointer" id="button_home">
+            zur Startseite
+          </ButtonTmp>  
+        </div> 
+        <div v-else-if="stepProps.info">
           <template v-for="(column, index) in stepProps.info" :key="index">
             <CatBlock :content="column" htag="h4" style="padding-bottom: 1rem" />
           </template>
@@ -360,9 +413,9 @@ const getRootPath = (root: string | undefined) => {
           <CatBlock :content="stepProps.toString()" htag="h4" style="padding-bottom: 1rem" />
         </!-->
         <MdBlock v-if="stepProps.footer" :content="stepProps.footer" htag="h4" /> 
-        <div v-show="stepProps.name!=='kontakt'" class="flex flex-row-reverse justify-between" style="margin-top: 3em">
+        <div v-show="stepProps.name!=='kontakt' && stepProps.name!=='checks'" class="flex flex-row-reverse justify-between" style="margin-top: 3em">
           <ButtonTmp class="cursor-pointer" @click="handle_completestep" id="button_completestep">
-            {{ activestep === allsteps.length ? 'Abschicken' : 'Weiter' }}
+            Weiter
           </ButtonTmp>  
           <ButtonTmp is="a" v-if="activestep > 1" class="cursor-pointer" @click="handle_backwards" id="button_completestep">
             <SfIconArrowBack size="lg" />

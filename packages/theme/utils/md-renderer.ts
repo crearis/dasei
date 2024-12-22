@@ -14,7 +14,7 @@ export function extractHeading(content: string) {
 
   var tags = restContent.match(/(==.*==)/g) ? restContent.split('==')[1] : null
   if (tags) {
-    restContent = restContent.replace(` ==${tags}== `, '').trim()
+    restContent = restContent.replace(`==${tags}==`, '').trim()
     tags = tags.replace('==', '').trim()
   }
 
@@ -27,7 +27,7 @@ export function extractHeading(content: string) {
   return { headline, overline, subline, tags, shortcode }
 }
 
-function mailHeading(content: string) {
+function mailHeading(content: string, htag: string = 'h1') {
   if (!content) return { headline: '', overline: '', subline: '', tags: '', shortcode: '' }
   var restContent = content.trim()
   var shortcode = restContent.startsWith('_') ? restContent.split('_ ')[0] : null
@@ -38,24 +38,38 @@ function mailHeading(content: string) {
 
   var tags = restContent.match(/(==.*==)/g) ? restContent.split('==')[1] : null
   if (tags) {
-    restContent = restContent.replace(` ==${tags}== `, '').trim()
+    restContent = restContent.replace(`==${tags}==`, '').trim()
     tags = tags.replace('==', '').trim()
   }
 
   const simple = restContent.match(/(\*\*.*\*\*)/g) ? false : true
   const headline = simple ? restContent : restContent.split('**')[1]
 
-  const overline = restContent.startsWith('**') ? null : !simple ? tags + ' | ' + restContent.split('**')[0] : null
+  const overline = restContent.startsWith('**')
+    ? null
+    : !simple
+      ? (tags ? tags + ' // ' : '') + restContent.split('**')[0]
+      : null
   const subline =
-    !simple && !overline && restContent.startsWith('**') ? tags + ' | ' + restContent.split('**')[2] : null
+    !simple && !overline && restContent.startsWith('**')
+      ? (tags ? tags + ' // ' : '') + restContent.split('**')[2]
+      : null
 
+  const hcode =
+    htag === 'h1'
+      ? htag + " style='font-size:24px; font-weight:700;'"
+      : htag === 'h2'
+        ? htag + " style='font-size:20px; font-weight:700;'"
+        : htag === 'h3'
+          ? htag + " style='font-size:18px; font-weight:700;'"
+          : htag + " style='font-size:16px; font-weight:700;'"
   // shortcode is missing
   if (overline) {
-    return `<span style="font-size:16px; font-weight:500;">${overline}"</span><br><h1 style="font-size:24px; font-weight:700;">${headline}</h1>`
+    return `<span style="font-size:16px; font-weight:500;">${overline}</span><${hcode}">${headline}</${htag}>`
   } else if (subline) {
-    return `<h1 style="font-size:24px; font-weight:700;">${headline}</h1><br><span style="font-size:16px; font-weight:500;">${subline}</span>`
+    return `<${hcode}>${headline}</${htag}><span style="font-size:16px; font-weight:500;">${subline}</span>`
   } else {
-    return `<h1 style="font-size:24px; font-weight:700;">${headline}</h1>`
+    return `<${hcode}">${headline}</${htag}>`
   }
 }
 
@@ -107,7 +121,7 @@ export function renderMdProp(content: string, htag: string = 'h3', mailbody: boo
   body = body.replace(/\_(.*?)\_/g, '<em>$1</em>')
 
   if (mailbody) {
-    return mailHeading(heading) + '<br /> <br />' + body
+    return mailHeading(heading, htag) + body
   }
   return (heading ? `<Heading is="${htag}" content="${heading}" />\n` : '') + body
 }
