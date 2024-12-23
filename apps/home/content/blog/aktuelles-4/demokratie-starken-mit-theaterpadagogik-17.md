@@ -13,7 +13,7 @@ image:
   src: https://res.cloudinary.com/little-papillon/image/upload/c_fill,w_920,h_518,ar_16:9,g_auto/v1676759847/dasei/aus0_home1.jpg
 hero:
   height: full  
-  gradient_type: top  
+  gradientType: top  
   img_tmp_align_y: left
   content_y: top 
 ---

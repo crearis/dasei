@@ -13,7 +13,7 @@ image:
   src: https://res.cloudinary.com/little-papillon/image/upload/w_400/v1594670341/dasei/pflanze_u32qtf.jpg
 hero:
   height: medium  
-  gradient_type: bottom  
+  gradientType: bottom  
   img_tmp_align_y: left
   content_y: bottom  
 ---
