@@ -15,7 +15,7 @@ lernst, nach didaktischen Modellen zu arbeiten und ...
 	- 
 - [ ] Hans: http://localhost:3000/ausbildung-theaterpaedagogik umbauen
 	- in Berufsabschluss 2 weitere Links: 3-jähriger-Orientierung + /Quereinstieg/
-- [ ] Hans: http://localhost:3000/ausbildung-theaterpaedagogik/grundlagenbildung > ==10640,00 sind falsch==
+- [x] Hans: http://localhost:3000/ausbildung-theaterpaedagogik/grundlagenbildung > ==10640,00 sind falsch==
 - weiter geht's mit der Aufbaustufe :)
 - [ ] Hans: Navigation umbauen, Landing-Page
 	- [ ] Seiten-Navigation vereinfachen > nur Hauptlinks
