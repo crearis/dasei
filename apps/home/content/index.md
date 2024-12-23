@@ -4,9 +4,8 @@ title: DAS Ei - Theaterpädagogisches Institut Bayern e.V.
 description: Ausbildung Theaterpädagogik (BuT), Fortbildung + Vernetzung in Nürnberg, München, Bayern
 heading: mit Theater Grenzen bewegen **AUSBILDUNG THEATERPÄDAGOGIK** 
 teaser: |
-  **Grundlagen Theaterpädagogik (BuT) 2024-2026**
-  3 RESTPLÄTZE OKT 2024 > vergünstigt buchen!!
-  **Theaterpädagoge/in (BuT) 2024-2027**
+  **Grundlagen Theaterpädagogik (BuT) 2025-2027**
+  **Theaterpädagoge/in (BuT) 2025-2028**
 cssclasses:
   - workshop
 start: 2024-12-06
@@ -20,7 +19,7 @@ hero:
   content_width: full
   cta:
     title: Kurse im Überblick anschauen
-    link: /ausbildung-theaterpaedagogik/einstiege  
+    link: /ausbildung-theaterpaedagogik/index  
 image:
   alt: Katz und Maus
   src: https://res.cloudinary.com/little-papillon/image/upload/t_cover-half-1200/dasei/aus0_home1.jpg

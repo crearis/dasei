@@ -1,55 +1,35 @@
 ---
 navigation: false
 navigation_highlight: /ausbildung-theaterpaedagogik/einstiege
+shortcode: n17e
+heading: "**Einstiege ins Theaterspiel** Nürnberg 9.5 - 14.12.2025 // Samstag & Online"
+start: 2025-05-09
+end: 2025-12-14
 ctype: course
-shortcode: m16e
-meta_product: einstiege
 tag: course
-heading: "==Okt 2024 - Juli 2025== Einstiege ins Theaterspiel **Tageskursverlauf München**"
-description: Fortbildung Einstiege ins Theaterspiel // Kurs M16E München 6.10.2024 - 30.07.2025 // Sonntags & Online
+description: Weiterbildung Theaterpädagogik - Kurs N17E 9.5 - 14.12.2025 // Samstags-Kurs Nürnberg
 title: Einstiege ins Theaterspiel
-start: 2024-10-06
-ende: 2025-07-30
 cssclasses:
   - course
 views:
   - product
   - details
-detailiert:
+details:
  programm:
   title: Programm & Struktur
   header: |
-   ## **Programm & Struktur**
-   - Stichwort 1
-   - Stichwort 2
-  agenda:
-   style: default
+   ## Programm & Struktur
   info:
    struktur: |
-    #### Struktur
+    ### Struktur
     - **Basistag** 10 UE
     - **5 Einheiten A1-A5** _110 UE_
     - **SUMME** mind. 120 UE
    beratung: |
     #### Beratung
     - bei Kursanmeldung Beratung zur Frage, ob eher Blockprogramm oder Tageskursverlauf sinnvoll ist
-    - im Okt 2024 Beratung zur Fortsetzung Grundlagenbildung Kurse M16 oder N16, sowie bei Bedarf Aufbaustufe Theaterpädagog:in (BuT)
- konditionen:
-  title: Kosten & Konditionen
-  header: | 
-   ### Kosten & Konditionen
-  info:
-   kosten: |
-    ### Kosten
-    - **A0 Anmeldegebühr (inkl. Basistag)** € 80,00 
-    - **5 Kursraten A1-A5** 5 Raten x € 220,00
-    - Zahlung: 5 Monatsraten
-    - **A0 Anmeldegebühr (inkl. Basistag)** € 80,00 
-    -> Blockseminare werden durchgeführt in der Burgstallmühle
-  footer: |
-   ### Widerruf & Storno
-   - 14 Tage Widerruf (bei Anmeldungen bis 1. Sept 2024)
-   - bis 10 Tage nach Basistag kostenfreies Storno A1-A5  
+    - im Okt 2025 Beratung zur Fortsetzung Grundlagenbildung Kurse M17 oder N17
+    - Fortsetzung Aufbaustufe möglich mit Abschluss Theaterpädagog:in (BuT) bis Juli 2028 
 product:
  header: |
   ## 5 Kurseinheiten
