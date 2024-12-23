@@ -19,7 +19,7 @@ hero:
   content_width: full
   cta:
     title: Kurse im Überblick anschauen
-    link: /ausbildung-theaterpaedagogik/index  
+    link: /ausbildung-theaterpaedagogik  
 image:
   alt: Katz und Maus
   src: https://res.cloudinary.com/little-papillon/image/upload/t_cover-half-1200/dasei/aus0_home1.jpg
