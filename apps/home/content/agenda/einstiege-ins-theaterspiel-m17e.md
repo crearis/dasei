@@ -58,7 +58,7 @@ items:
   ctype: event
   shortcode: a0
   title: Praxis, Theorie & Ausbildung bei DAS Ei **Basistag Theaterpädagogik**
-  tag: 21.2. online + 23.2. ganztags
+  tag: Fr., 21.2. online + So., 23.2. ganztags
   image: 
    url: https://res.cloudinary.com/little-papillon/image/upload/w_400/v1676101506/dasei/700_dasei2022_I8A7903_cvtigl.jpg
    caption: Foto Basistag Theaterpädagogik
@@ -79,7 +79,7 @@ items:
  a4_1294:
   ctype: event
   shortcode: a4
-  tag: 29.6. ganztags + 2 Abende online
+  tag: So., 29.6. ganztags + 2 Abende online
   title: Präsentation einer Geschichte **Szenische Lesung**
   image: 
    url: https://res.cloudinary.com/little-papillon/image/upload/w_400/v1594788813/dasei/am_anfang_war_der_kreis_s9qh5y.jpg
@@ -99,7 +99,7 @@ items:
  a5_1294:
   ctype: event
   shortcode: a5
-  tag: 27.7. ganztags + 2 Abende online
+  tag: So., 27.7. ganztags + 2 Abende online
   title: Stückentwicklung basierend auf Mitspieltheater **Figurenkarussell**
   image: 
    url: https://res.cloudinary.com/little-papillon/image/upload/w_400/v1594788813/dasei/am_anfang_war_der_kreis_s9qh5y.jpg
