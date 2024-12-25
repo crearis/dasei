@@ -6,7 +6,7 @@
     :shortcode="shortcode ? shortcode : ''"
     :subline="subline ? subline : ''"
     :tags="tags ? tags : ''"
-    :style="
+    :style="card ? '' :
       $viewport.isLessThan('tablet')
         ? is === 'h1'
           ? 'font-size: 0.75em;'
@@ -37,6 +37,15 @@ const props = defineProps({
     type: String as PropType<string>,
     required: true,
   },
+  /**
+   * suppress automatic Style-Settings and controll font-size manually.
+   *
+   * @default false
+   */  
+  card: {
+    type: Boolean,
+    required: false,
+  },  
 })
 
 import { useNuxtApp } from '#app'

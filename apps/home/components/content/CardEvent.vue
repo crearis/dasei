@@ -11,6 +11,7 @@
         ></CardHero>
         <Heading
           v-if="heading || data.heading || data.title"
+          card
           :content="heading ? heading : data.heading ? data.heading : data.title"
           is="h4"
           class="heading"
@@ -72,6 +73,10 @@ const default_heading = '## Default Heading'
 
 .heading {
   padding: 0.5rem 1rem;
+}
+
+.heading :deep() > h4.heading > .overline {
+  font-size: 0.825rem;
 }
 
 .column-auto {
