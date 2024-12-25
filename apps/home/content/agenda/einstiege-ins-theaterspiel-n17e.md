@@ -7,7 +7,7 @@ start: 2025-05-09
 end: 2025-12-14
 ctype: course
 tag: course
-description: Weiterbildung Theaterpädagogik - Kurs N17E 9.5 - 14.12.2025 // Samstags-Kurs Nürnberg
+description: Weiterbildung Theaterpädagogik - Kurs N17E | 9.5-14.12.2025 // Samstags-Kurs Nürnberg
 title: Einstiege ins Theaterspiel
 cssclasses:
   - course
