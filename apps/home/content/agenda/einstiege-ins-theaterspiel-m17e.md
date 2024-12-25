@@ -25,11 +25,12 @@ details:
     - **Basistag** 10 UE
     - **5 Einheiten A1-A5** _110 UE_
     - **SUMME** mind. 120 UE
+    *UEs voll anrechenbar auf Zertifikate Theaterpädagogik (BuT), eine UE entspricht 45 Min
    beratung: |
     #### Beratung
     - bei Kursanmeldung Beratung zur Frage, ob eher Blockprogramm oder Tageskursverlauf sinnvoll ist
-    - im Okt 2025 Beratung zur Fortsetzung Grundlagenbildung Kurse M17 oder N17
-    - Fortsetzung Aufbaustufe möglich mit Abschluss Theaterpädagog:in (BuT) bis Juli 2028
+    - im Okt 2025 Beratung zur Fortsetzung Grundlagenbildung Kurse M17 oder N17 mit Ziel 'Grundlagen Theaterpädagogik (BuT)'
+    - Fortsetzung Aufbaustufe möglich mit Abschluss 'Theaterpädagog:in (BuT)' bis Juli 2028
   agenda:
    style: default
  konditionen:
@@ -119,15 +120,15 @@ items:
  a1_1178:
   ctype: event
   shortcode: a1
-  tag: 6.10.2024
+  tag: So., 12.10. ganztags + 2 Abende online
   title: Einführung in die Kreisanimation **Am Anfang war der Kreis**
   image: 
    url: https://res.cloudinary.com/little-papillon/image/upload/w_400/v1594788813/dasei/am_anfang_war_der_kreis_s9qh5y.jpg
    caption: Theaterpädagogik Kreisanimation
   body: |
    Den Einstieg in die elementare Animation bilden die Kreisspiele: Hier kommen Grundregeln und -phänomene von interaktivem Spiel sehr deutlich zum Vorschein. Zunächst beschäftigen wir uns mit den einfachen und offensichtlichen Impulsen entlang der Kreisbahn und quer durch die Kreismitte und lernen dann, zahlreiche Grundanforderungen des Theaterspiels im Kreisspiel zu trainieren.
-  start: 2024-10-04T18:00
-  ende: 2024-10-08T21:00
+  start: 2025-10-10T18:00
+  ende: 2025-10-14T21:00
   ort: |
    Schwanthalerstraße 91
    80336 München
@@ -140,14 +141,14 @@ items:
   ctype: event
   shortcode: a2 
   title: Arbeiten mit dem Zwei-Kreise-Modell **die Bühne kommt von selbst**
-  tag: 20.10.2024  
+  tag: So., 26.10. ganztags + 2 Abende online  
   image: 
    url: https://res.cloudinary.com/little-papillon/image/upload/w_400/v1676100503/dasei/377_dasei2022_I8A6515_p6aee7.jpg
    caption: Foto die Bühne kommt von selbst
   body: |
    Wenn Du gelernt hast, die Interaktion der Gruppe im Kreis freizusetzen, entstehen fast von selbst 'Bühnenmomente'. Mit dem Zwei-Kreise-Modell lernst Du diese Momente gezielt zu gestalten und verbindest das Theaterpotential einfacher Animationen zu einem bühnenreifen Setting: Der Kreis öffnet sich zum Halbkreis und gibt in der Mitte eine Spielfläche frei.
-  start: 2024-10-18T18:00
-  ende: 2024-10-22T21:00
+  start: 2025-10-24T18:00
+  ende: 2025-10-28T21:00
   ort: |
    Schwanthalerstraße 91
    80336 München
@@ -156,18 +157,18 @@ items:
    So. 09:30-19:00
    Di. 18:00-21:00 _online_
   mit: Hans Dönitz
- a3_1192:
+ a3_1346:
   ctype: event
   shortcode: a3
   title: Raumlauf-Animation und Impro-Training **Wege entstehen beim Gehen**
-  tag: 7.-8.12.2024
+  tag: Sa./So. 6.-7.12.2025 + online-Abend
   image: 
    url: https://res.cloudinary.com/little-papillon/image/upload/w_400/v1676101054/dasei/wege_entstehen_beim_gehen.jpg
-   caption: Foto den Fuß setzeen
+   caption: Foto den Fuß setzen
   body: |
    Nichts kann das Ganz-Auf-Sicht-Gestellt-Sein der Bühnensituation besser vorwegnehmen, als ein einfacher 'Raumlauf'; Jene Übung, in der sich Teilnehmer mit einem konkreten 'Geh-Auftrag' kreuz und quer durch den Raum bewegen. Ein gründliches Verstehen des Geschehens ist nicht nur hilfreich, um den Raumlauf ordentlich anleiten zu können, sondern eröffnet immer neue Einblicke auf das Agieren im Bühnenraum.
-  start: 2024-12-07T09:30
-  ende: 2024-12-10T21:00
+  start: 2025-12-06T09:30
+  ende: 2025-12-09T21:00
   ort: |
    Schwanthalerstraße 91
    80336 München
@@ -180,7 +181,7 @@ items:
 
 #project
 ==Tasks==
-- [ ] A4 + A5 Bilder
+- [ ] Bilder A4, A5, A1 
 - [ ] 
 > [!data-hero] ## **Einstiege ins Theaterspiel** M16B Mue 19.9 - 8.12.2024 // Blockseminarverlauf
 
