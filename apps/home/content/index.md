@@ -22,7 +22,7 @@ hero:
     link: /ausbildung-theaterpaedagogik  
 image:
   alt: Katz und Maus
-  src: https://res.cloudinary.com/little-papillon/image/upload/t_cover-half-1200/dasei/aus0_home1.jpg
+  src: https://res.cloudinary.com/little-papillon/image/upload/c_crop,h_1750,w_2450/c_scale,h_1000,w_1400/v1676759847/dasei/aus0_home1.jpg
 ---
 
 

@@ -83,8 +83,8 @@ items:
   tag: So., 29.6. ganztags + 2 Abende online
   title: Präsentation einer Geschichte **Szenische Lesung**
   image: 
-   url: https://res.cloudinary.com/little-papillon/image/upload/w_400/v1594788813/dasei/am_anfang_war_der_kreis_s9qh5y.jpg
-   caption: Theaterpädagogik Kreisanimation
+   url: https://res.cloudinary.com/little-papillon/image/upload/c_crop,h_1750,w_2450,x_1,y_100/c_scale,h_250,w_350/v1676102664/dasei/einstiege.jpg
+   caption: Theaterpädagogik Szenische Lesung
   body: |
    Du erarbeitest dir spezifische Techniken, die es dir ermöglichen, unmittelbar in verschiedene Rollen zu schlüpfen. Für das teilnehmende Publikum bringst du auf diese Weise die Magie einer Geschichte zum Vorschein und interagierst als Animationsfigur. Die durch sie vermittelten Erlebnissen, können zum Auftakt eines Theaterstücks werden.
   start: 2025-06-27T18:00
