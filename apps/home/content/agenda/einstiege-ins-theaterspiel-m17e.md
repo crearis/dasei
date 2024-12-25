@@ -54,11 +54,11 @@ product:
  footer: |
   ## September - Dezember 2024 // München, Nürnberg **Einstiege ins Theaterspiel**
 items: 
- a0_1276:
+ a0_1328:
   ctype: event
   shortcode: a0
   title: Praxis, Theorie & Ausbildung bei DAS Ei **Basistag Theaterpädagogik**
-  tag: 6.-7.9.2024 
+  tag: 21.2. online + 23.2. ganztags
   image: 
    url: https://res.cloudinary.com/little-papillon/image/upload/w_400/v1676101506/dasei/700_dasei2022_I8A7903_cvtigl.jpg
    caption: Foto Basistag Theaterpädagogik
@@ -67,16 +67,55 @@ items:
    - Einstiege ins Theaterspiel (Modul A)
    - Szenische Themenarbeit (Modul B)
    - Pädagogische Regie (Modul C)
-  start: 2024-09-06T18:00
-  ende: 2024-09-07T19:00
+  start: 2025-02-21T18:00
+  ende: 2025-02-23T19:00
   ort: |
    Schwanthalerstraße 91
    80336 München
   ablauf: |
    Fr. 18:00-20:00 _online_
-   So. 09:00-19:00
-   Di. 18:00-21:00 _online_
+   So. 09:30-19:00
   mit: Hans Dönitz
+ a4_1294:
+  ctype: event
+  shortcode: a4
+  tag: 29.6. ganztags + 2 Abende online
+  title: Präsentation einer Geschichte **Szenische Lesung**
+  image: 
+   url: https://res.cloudinary.com/little-papillon/image/upload/w_400/v1594788813/dasei/am_anfang_war_der_kreis_s9qh5y.jpg
+   caption: Theaterpädagogik Kreisanimation
+  body: |
+   Du erarbeitest dir spezifische Techniken, die es dir ermöglichen, unmittelbar in verschiedene Rollen zu schlüpfen. Für das teilnehmende Publikum bringst du auf diese Weise die Magie einer Geschichte zum Vorschein und interagierst als Animationsfigur. Die durch sie vermittelten Erlebnissen, können zum Auftakt eines Theaterstücks werden.
+  start: 2025-06-27T18:00
+  ende: 2025-07-01T21:00
+  ort: |
+   Schwanthalerstraße 91
+   80336 München
+  ablauf: |
+   Fr. 18:00-20:00 _online_
+   So. 09:30-19:00
+   Di. 18:00-21:00 _online_
+  mit: Cornelia Jung
+ a5_1294:
+  ctype: event
+  shortcode: a5
+  tag: 27.7. ganztags + 2 Abende online
+  title: Stückentwicklung basierend auf Mitspieltheater **Figurenkarussell**
+  image: 
+   url: https://res.cloudinary.com/little-papillon/image/upload/w_400/v1594788813/dasei/am_anfang_war_der_kreis_s9qh5y.jpg
+   caption: Theaterpädagogik Kreisanimation
+  body: |
+   Mithilfe des Figurenkarussells animierst du das teilnehmende Publikum aktiv in das Bühnengeschehen einzusteigen. Mühelos und ohne Umschweife gelingt es so, Zuschauende zu Mitspielenden zu machen. Wurde eine Rolle von einem oder mehreren Teilnehmenden übernommen, dreht sich das Figurenkarussell zur nächsten Figur.
+  start: 2025-07-25T18:00
+  ende: 2025-07-29T21:00
+  ort: |
+   Schwanthalerstraße 91
+   80336 München
+  ablauf: |
+   Fr. 18:00-20:00 _online_
+   So. 09:30-19:00
+   Di. 18:00-21:00 _online_
+  mit: Cornelia Jung
  a1_1178:
   ctype: event
   shortcode: a1
@@ -138,6 +177,11 @@ items:
    Di. 18:00-21:00 _online_
   mit: Hans Dönitz
 ---
+
+#project
+==Tasks==
+- [ ] A4 + A5 Bilder
+- [ ] 
 > [!data-hero] ## **Einstiege ins Theaterspiel** M16B Mue 19.9 - 8.12.2024 // Blockseminarverlauf
 
 > [!card-event] ## _A0_ ==6.-7.9.2024== Praxis, Theorie & Ausbildung bei DAS Ei **Basistag Theaterpädagogik**
