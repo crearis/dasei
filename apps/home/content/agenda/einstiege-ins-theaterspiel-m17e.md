@@ -25,7 +25,7 @@ details:
     - **Basistag** 10 UE
     - **5 Einheiten A1-A5** _110 UE_
     - **SUMME** mind. 120 UE
-    *UEs voll anrechenbar auf Zertifikate Theaterpädagogik (BuT), eine UE entspricht 45 Min
+    *UEs ("Unterrichtseinheiten") sind voll anrechenbar auf die Zertifikate Theaterpädagogik (BuT), eine UE entspricht 45 Min
    beratung: |
     #### Beratung
     - bei Kursanmeldung Beratung zur Frage, ob eher Blockprogramm oder Tageskursverlauf sinnvoll ist
