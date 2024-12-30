@@ -30,6 +30,9 @@ hero:
 
 <br>
 
+<br>
+
+
 ## Einstiege ins Theaterspiel in München und Nürnberg ab Feb 2025 **Kurs-Starts  Grundlagenbildung**
 
 > [!columns]
@@ -49,7 +52,6 @@ hero:
 >>> [!button-tmp] 
 >>> [direkt anmelden](https://www.dasei.eu/details?src=/agenda/einstiege-ins-theaterspiel-m17e)
 >>
->> [!column | width=1/3]
 >> ### Basistag Nürnberg Sa. 9. MAI 09:00-18:00
 >> 6 Seminareinheiten bis Dez 2025 [>> Infos](https://www.dasei.eu/details?src=/agenda/einstiege-ins-theaterspiel-n17e)
 >> 
@@ -61,9 +63,11 @@ hero:
 > ## Acht mal Offenes Programm 2025 **Workshops und Projekte 2025**
 > 
 > ### 7.-9.3.2025 - Praxisschulung **Licht-Design & Licht-Technik**
-Fürth: Fr. 18:30-21:00 / Sa. 9:00-18:00 / So. 09:00-14:30  
-**Achtung:** Wir bieten diesen Klassiker mit Eleanora Allerdings letztmalig an!!
-[>> Infos](https://www.dasei.eu/agenda/lichtgestaltung-l1_1203)
+> Fürth: Fr. 18:30-21:00 / Sa. 9:00-18:00 / So. 09:00-14:30  
+> **Achtung:** Wir bieten diesen Klassiker mit Eleanora Allerdings letztmalig an!!
+> [>> Infos](https://www.dasei.eu/agenda/lichtgestaltung-l1_1203)
+> 
+> 
 > ### 21.-23.3.2025 - Zwischen Butoh und Embodiment **Verkörperungen**   
 > München: Fr. 18:15-21:00 / Sa. 10:00-19:00 / So. 09:00-15:00  
 > Performance-Workshop mit Rosalin Hertrich
