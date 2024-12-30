@@ -69,8 +69,9 @@ hero:
 > 
 > <br>
 > 
-> ### 21.-23.3.2025 - Zwischen Butoh und Embodiment **Verkörperungen**   
-> München: Fr. 18:15-21:00 / Sa. 10:00-19:00 / So. 09:00-15:00  
+> ### 21.-23.3.2025 - Zwischen Butoh und Embodiment **Verkörperungen**
+> 
+> München: Fr. 18:15-21:00 / Sa. 10:00-19:00 / So. 09:00-15:00 
 > Performance-Workshop mit Rosalin Hertrich
 > [>> Infos](https://www.dasei.eu/agenda/verkoerperungen-rd_1523)
 > 
@@ -93,11 +94,11 @@ hero:
 > weitere Workshops ... >> [hier](https://www.dasei.eu/agenda)
 
 
-## save-the-date**Theaterpedia-Konferenz 20.-23. NOV 2025**
-
-Rund um die Theaterpedia-Konferenz Nov 2024 Nürnberg hat in insgesamt 6 Regios in Bayern in die "Sondierung" gestartet: Neben Würzburg, Nürnberg und der Bay-Cz-Grenzregion liegt der Schwerpunkt im Großraum München und Augsburg.
-Ende Januar liegen Zwischenergebnisse vor.
-Eines ist jetzt schon sicher: Die nächste Theaterpedia-Konferenz ist: 20.-23. NOV 2025 in München. Du kannst dich jetzt schon [anmelden](https://www.dasei.eu/agenda/theaterpedia-x1_1199).
+> [!section-container]
+> ## save-the-date**Theaterpedia-Konferenz 20.-23. NOV 2025**
+> Rund um die Theaterpedia-Konferenz Nov 2024 Nürnberg hat in insgesamt 6 Regios in Bayern in die "Sondierung" gestartet: Neben Würzburg, Nürnberg und der Bay-Cz-Grenzregion liegt der Schwerpunkt im Großraum München und Augsburg.
+> Ende Januar liegen Zwischenergebnisse vor.
+> Eines ist jetzt schon sicher: Die nächste Theaterpedia-Konferenz ist: 20.-23. NOV 2025 in München. Du kannst dich jetzt schon [anmelden](https://www.dasei.eu/agenda/theaterpedia-x1_1199).
 
 
 > [!section-container | background=muted]
