@@ -67,29 +67,34 @@ hero:
 > **Achtung:** Wir bieten diesen Klassiker mit Eleanora Allerdings letztmalig an!!
 > [>> Infos](https://www.dasei.eu/agenda/lichtgestaltung-l1_1203)
 > 
+> <br>
 > 
 > ### 21.-23.3.2025 - Zwischen Butoh und Embodiment **Verkörperungen**   
 > München: Fr. 18:15-21:00 / Sa. 10:00-19:00 / So. 09:00-15:00  
 > Performance-Workshop mit Rosalin Hertrich
 > [>> Infos](https://www.dasei.eu/agenda/verkoerperungen-rd_1523)
 > 
+> <br>
 > 
 > ### 21.-23.3.2025 - Methodenworkshop **Eine Rolle viele Gesichter** 
 > München: Fr. 19:00 - 21:30 / Sa. 10:00-18:00 / So. 09:00-17:15  
 > Methodenworkshop zum Möglichkeitsspektrum der Rollenerarbeitung mit Cornelia Jung
 > [>> Infos](https://www.dasei.eu/agenda/eine-rolle-viele-gesichter-lr_1201)
 > 
+> <br>
 > 
 > ### Dokumentarisches Theater **Das Spiel mit der Wirklichkeit** 
 > München: 4.-6. JULI + 7.-14. SEPT
 > Sommerprojekt mit Eleanora Allerdings
 > [>> Infos](https://www.dasei.eu/agenda/doku-theater-f1_1093) **Frühbucher-Konditionen bis 1.4.2025!!**
 > 
+> <br>
 > 
 > weitere Workshops ... >> [hier](https://www.dasei.eu/agenda)
-> 
+
 
 ## save-the-date**Theaterpedia-Konferenz 20.-23. NOV 2025**
+
 Rund um die Theaterpedia-Konferenz Nov 2024 Nürnberg hat in insgesamt 6 Regios in Bayern in die "Sondierung" gestartet: Neben Würzburg, Nürnberg und der Bay-Cz-Grenzregion liegt der Schwerpunkt im Großraum München und Augsburg.
 Ende Januar liegen Zwischenergebnisse vor.
 Eines ist jetzt schon sicher: Die nächste Theaterpedia-Konferenz ist: 20.-23. NOV 2025 in München. Du kannst dich jetzt schon [anmelden](https://www.dasei.eu/agenda/theaterpedia-x1_1199).
