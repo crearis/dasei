@@ -1,7 +1,6 @@
 ---
 id: 26
-heading: "**im Wald, da braut sich was zusammen** Praxisbericht"
-teaser: Wie fünf Auszubildende des „Theatralen Lernens“ mit Förderschüler:innen ein Stück auf die Bretter brachten.
+heading: "**Praxisbericht** im Wald, da braut sich was zusammen"
 description: Wie fünf Auszubildende des „Theatralen Lernens“ mit Förderschüler:innen ein Stück auf die Bretter brachten.
 title: im Wald, da braut sich was zusammen
 cssclasses:
@@ -25,6 +24,9 @@ hero:
 > ![Performance mit Pflanze](https://res.cloudinary.com/little-papillon/image/upload/t_event-banner-smart/v1735578183/dasei/im_wald_da_braut_sich_was_zusammen_vgfvjm.jpg)
 
 <!-- PUBLISH-FROM-HERE -->
+**Wie fünf Auszubildende des „Theatralen Lernens“ mit Förderschüler:innen ein Stück auf die Bretter brachten.**
+
+---
 
 Das Praxisprojekt Animative Regie ging am 5. Juli zu Ende. Wir (Sabine, Tanja, Burak, Kristýna und Ingrid) haben mit Dritt- und ViertklässlerInnen der Paul-Mohr Förderschule Nürnberg in fünf Schultagen versucht, das 4-Tage-Modell umzusetzen. Versucht? Es ist gelungen, ja. Aber es war ein holpriger Weg. Mit einem enormen Lernpotenzial - für die 15 Kinder und für uns. 
 
