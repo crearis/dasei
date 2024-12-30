@@ -9,7 +9,7 @@ author: Hans Dönitz
 date: 2024-12-30
 blog: Aktuelles
 image:
-  alt: Performance mit Pflanze
+  alt: Weihnachtsgrüße vom Sprech-Chor Demokratie
   src: https://res.cloudinary.com/little-papillon/image/upload/ar_16:9,c_fill,g_auto,h_718,w_1200/v1735575650/dasei/weihnachtsgruss_ujvznp.png
 hero:
   height: prominent  
@@ -19,47 +19,76 @@ hero:
   image_focus_y: top
   image_focus_x: cover
 ---
-> [!data-hero] ## **aktuelle Infos 30.12** der monatliche Newsletter DAS Ei
+> [!data-hero] ## **aktuelle Infos 30.12.2024** der monatliche Newsletter DAS Ei
 > 
-> ![Performance mit Pflanze](https://res.cloudinary.com/little-papillon/image/upload/w_400/v1594670341/dasei/pflanze_u32qtf.jpg)
+> ![Performance mit Pflanze](https://res.cloudinary.com/little-papillon/image/upload/ar_16:9,c_fill,g_auto,h_718,w_1200/v1735575650/dasei/weihnachtsgruss_ujvznp.png)
 
 <!-- PUBLISH-FROM-HERE -->
 
-_Episode Theaterpädagogik & Demokratie - Basistage - Praxisprojekt - Offenes Programm_   
-**Viel Freude mit den aktuellen Monatsinfos! Leite gerne die INFOS an Interessierte weiter.**
+_Kursstarts Grundlagen - Offenes Programm 2025 - Theaterpedia-Konferenz München - Praxisprojekt "im Wald braut sich was zusammen" 
+
+**Das Jahr neigt sich dem Ende zu und wir wünschen allen einen guten Rutsch und viel Kraft und Zuversicht. Wir freuen uns auf ein Wiedersehen 2025! Leite gerne die INFOS an Interessierte weiter.**
+
+## Einstiege ins Theaterspiel in München und Nürnberg ab Feb 2025 **Kurs-Starts  Grundlagenbildung**
 
 > [!columns]
->> [!column | width=1/3]
+>> [!column | width=2/3]
+>> ### Info-Teaser Do. 16.1 18:00 (online)
+>> Video-Call mit:
+>> - Programmüberblick Grundlagenbildung Theaterpädagogik (BuT)
+>> - Anwendungsbeispiele und Berufsfelder
+>> - Fragen und Antworten
+>> 
 >>> [!button-tmp] 
->>> [Kulturgemeinschaften](https://kulturgemeinschaften.de/)
+>>> [kostenlos teilnehmen](https://www.dasei.eu/details?src=/agenda/info-teaser-aa_1531)
 >
 >> [!column | width=1/3]
+>> ### Basistag München So. 23. FEB 09:30-19:00
+>> den Kursstart ausprobieren
 >>> [!button-tmp] 
->>> [Kulturgemeinschaften](https://kulturgemeinschaften.de/)
->
+>>> [direkt anmelden](https://www.dasei.eu/details?src=/agenda/einstiege-ins-theaterspiel-m17e)
+>>
 >> [!column | width=1/3]
->>> [!button-tmp] 
->>> [Kulturgemeinschaften](https://kulturgemeinschaften.de/)
-  
+>> ### Basistag Nürnberg Sa. 9. MAI 09:00-18:00
+>> 6 Seminareinheiten bis Dez 2025 [>> Infos](https://www.dasei.eu/details?src=/agenda/einstiege-ins-theaterspiel-n17e)
+>> 
+>>> ### Start Blockseminarkurs Do. 29.5-So. 1.6
+>> 3 Blockseminare bis Dez 2025 [>> Infos](https://www.dasei.eu/details?src=/agenda/einstiege-ins-theaterspiel-m17b)
+
+
+## Acht mal Offenes Programm 2025 **Workshops und Projekte 2025**
+
+
+### 7.-9.3.2025 - Praxisschulung **Licht-Design & Licht-Technik**
+Fürth: Fr. 18:30-21:00 / Sa. 9:00-18:00 / So. 09:00-14:30  
+**Achtung:** Wir bieten diesen Klassiker mit Eleanora Allerdings letztmalig an!!
+[>> Infos](https://www.dasei.eu/agenda/lichtgestaltung-l1_1203)
+
+
+### 21.-23.3.2025 - Zwischen Butoh und Embodiment **Verkörperungen**   
+München: Fr. 18:15-21:00 / Sa. 10:00-19:00 / So. 09:00-15:00  
+Performance-Workshop mit Rosalin Hertrich
+[>> Infos](https://www.dasei.eu/agenda/verkoerperungen-rd_1523)
+
+
+### 21.-23.3.2025 - Methodenworkshop **Eine Rolle viele Gesichter** 
+München: Fr. 19:00 - 21:30 / Sa. 10:00-18:00 / So. 09:00-17:15  
+Methodenworkshop zum Möglichkeitsspektrum der Rollenerarbeitung mit Cornelia Jung
+[>> Infos](https://www.dasei.eu/agenda/eine-rolle-viele-gesichter-lr_1201)
+
+
+### Dokumentarisches Theater **Das Spiel mit der Wirklichkeit** 
+München: 4.-6. JULI + 7.-14. SEPT
+Sommerprojekt mit Eleanora Allerdings
+[>> Infos](https://www.dasei.eu/agenda/doku-theater-f1_1093) **Frühbucher-Konditionen bis 1.4.2025!!**
+
+
+## Acht mal Offenes Programm 2025 **Theaterpedia-Konferenz 20.-23. NOV 2025**
+**Im Wald braut sich was zusammen…**  
+Im Juli fand im Rahmen der Aufbaustufe von DAS Ei eine Stückentwicklung
+
+
 ## Kooperation mit dem Paul-Moor-Förderzentrum Nürnberg **Praxisprojekt Theatrales Lernen**
 **Im Wald braut sich was zusammen…**  
-Hier berichten wir von unserem Praxisprojekt mit Dritt- und Viertklässlern das im Juli eine kleine Aufführung haben wird.
-[hier weiterlesen](/blog/aktuelles-4/im-wald-braut-sich-was-zusammen-25)
-
----
-
-## WORKSHOPS  und  OFFENES PROGRAMM
-Das offene Programm von DAS Ei ist offen für alle, nicht nur Ausbildungsteilnehmende. Gerne kannst du diese Info an Interessierte weiterleiten. Es eignet sich auch zur Orientierung für die Aufbaustufe.
-
-### Fortlaufend montags bis 29.7 - Einladung zur kostenfreien Teilnahme **CONTROLLED CHAOS (Fürth)**
-Teilnahme noch möglich...
-Offener Performance-Kurs / Tanzzentrale Fürth  
-Raum, Rhythmus, Kontakt und Bewegung... Dieser Performance-Kurs zielt darauf ab, die Grundlagen der Performance Kunst zu erforschen und findet von April bis Juli montags von 18-21 Uhr in der Tanzzentrale Fürth statt. Der Kurs ist offen für alle mit und ohne Vorerfahrung. 
-
-### 2.-4.8.2024 - **MACH DEN MUND AUF**
-Fr. 18:30-21:00 / Sa. 09:00-18:00 / So. 09:00-15:00   
-Stimmworkshop zum Thema “Sprechen auf der Bühne" 
-
-### 6.-8.12.2024 – WORKSHOP MASKENSPIEL: **Die Magie der Verwandlung**  
-Fr. 18:30-21:00 / Sa. 09:00-18:00 / So. 09:00-14:00   
-Das Gesicht wird hinter der Maske unsichtbar, und trotzdem kann diese Theaterform besonders lebendig und berührend sein. Entdecke die Faszination und das Handwerk von Masken!
+Im Juli fand im Rahmen der Aufbaustufe von DAS Ei eine Stückentwicklung zum Thema _"Regeln und Freiheit im Wald"_ an der Paul-Moor Förderschule in Nürnberg statt. Ausbildungsteilnehmerin Tanja Täubner hat einen Praxisbericht verfasst...
+[hier weiterlesen](im-wald-braut-sich-was-zusammen-24-07-06.md)
