@@ -53,7 +53,7 @@ hero:
 >> ### Basistag Nürnberg Sa. 9. MAI 09:00-18:00
 >> 6 Seminareinheiten bis Dez 2025 [>> Infos](https://www.dasei.eu/details?src=/agenda/einstiege-ins-theaterspiel-n17e)
 >> 
->>> ### Start Blockseminarkurs Do. 29.5-So. 1.6
+>> ### Start Blockseminarkurs Do. 29.5-So. 1.6
 >> 3 Blockseminare bis Dez 2025 [>> Infos](https://www.dasei.eu/details?src=/agenda/einstiege-ins-theaterspiel-m17b)
 
 

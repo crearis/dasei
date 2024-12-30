@@ -38,6 +38,6 @@ Riesenapplaus. Der Schulleiter kam zu uns und hat allen dankbar und inspiriert d
 
 20 Stunden vorher, nach der Generalprobe hatten wir entschieden, gemeinsam mit den Kindern auf der Bühne zu stehen. Zwei von uns spielten als Tiere mit, zwei moderierten das Stück als Erzählerfiguren und die fünfte machte die Inspizientin. Es lief wie am Schnürchen. Keines der Kinder musste sich vor den Schülern:innen der ersten bis vierten Klasse oder den LehrerInnen im Publikum schämen, denn Burak war immer noch komischer und noch lustiger als jeder andere. Die Kinder im Publikum erlebten SchauspielerInnen und Förderschüler:innen gemeinsam auf der Bühne und niemand vergaß seinen Einsatz. 
 
-Tanja Täubner, 
+Tanja Täubner
 
 Auszubildende in der Aufbaustufe „Theatrales Lernen“, 6. Juli 2024
