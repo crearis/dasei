@@ -83,7 +83,7 @@ items:
   tag: So., 29.6. ganztags + 2 Abende online
   title: Präsentation einer Geschichte **Szenische Lesung**
   image: 
-   url: https://res.cloudinary.com/little-papillon/image/upload/c_crop,h_1750,w_2450,x_1,y_100/c_scale,h_250,w_350/v1676102664/dasei/einstiege.jpg
+   url: https://res.cloudinary.com/little-papillon/image/upload/c_crop,h_2200,w_2200,x_1,y_100/c_scale,h_350,w_350/v1676102664/dasei/einstiege.jpg
    caption: Theaterpädagogik Szenische Lesung
   body: |
    Du erarbeitest dir spezifische Techniken, die es dir ermöglichen, unmittelbar in verschiedene Rollen zu schlüpfen. Für das teilnehmende Publikum bringst du auf diese Weise die Magie einer Geschichte zum Vorschein und interagierst als Animationsfigur. Die durch sie vermittelten Erlebnissen, können zum Auftakt eines Theaterstücks werden.
@@ -103,8 +103,8 @@ items:
   tag: So., 27.7. ganztags + 2 Abende online
   title: Stückentwicklung basierend auf Mitspieltheater **Figurenkarussell**
   image: 
-   url: https://res.cloudinary.com/little-papillon/image/upload/w_400/v1594788813/dasei/am_anfang_war_der_kreis_s9qh5y.jpg
-   caption: Theaterpädagogik Kreisanimation
+   url: https://res.cloudinary.com/little-papillon/image/upload/v1676100144/dasei/figurenkarussell.jpg
+   caption: Theaterpädagogik Figurenkarussell
   body: |
    Mithilfe des Figurenkarussells animierst du das teilnehmende Publikum aktiv in das Bühnengeschehen einzusteigen. Mühelos und ohne Umschweife gelingt es so, Zuschauende zu Mitspielenden zu machen. Wurde eine Rolle von einem oder mehreren Teilnehmenden übernommen, dreht sich das Figurenkarussell zur nächsten Figur.
   start: 2025-07-25T18:00
@@ -134,7 +134,7 @@ items:
    80336 München
   ablauf: |
    Fr. 18:00-20:00 _online_
-   So. 09:00-19:00
+   So. 09:30-19:00
    Di. 18:00-21:00 _online_
   mit: Hans Dönitz 
  a2_1190:
@@ -168,14 +168,14 @@ items:
   body: |
    Nichts kann das Ganz-Auf-Sicht-Gestellt-Sein der Bühnensituation besser vorwegnehmen, als ein einfacher 'Raumlauf'; Jene Übung, in der sich Teilnehmer mit einem konkreten 'Geh-Auftrag' kreuz und quer durch den Raum bewegen. Ein gründliches Verstehen des Geschehens ist nicht nur hilfreich, um den Raumlauf ordentlich anleiten zu können, sondern eröffnet immer neue Einblicke auf das Agieren im Bühnenraum.
   start: 2025-12-06T09:30
-  ende: 2025-12-09T21:00
+  ende: 2025-12-16T21:00
   ort: |
    Schwanthalerstraße 91
    80336 München
   ablauf: |
    Sa. 09:30-18:30
    So. 09:00-15:00
-   Di. 18:00-21:00 _online_
+   Di., 16.12 18:00-21:00 _online_
   mit: Hans Dönitz
 ---
 
