@@ -29,7 +29,22 @@ details:
     #### Beratung
     - bei Kursanmeldung Beratung zur Frage, ob eher Blockprogramm oder Tageskursverlauf sinnvoll ist
     - im Okt 2025 Beratung zur Fortsetzung Grundlagenbildung Kurse M17 oder N17
-    - Fortsetzung Aufbaustufe möglich mit Abschluss Theaterpädagog:in (BuT) bis Juli 2028 
+    - Fortsetzung Aufbaustufe möglich mit Abschluss Theaterpädagog:in (BuT) bis Juli 2028
+ konditionen:
+  title: Kosten & Konditionen
+  header: |
+   ## Kosten & Konditionen
+  info:
+   kosten: |
+    ### Kosten
+    - **A0 Anmeldegebühr (inkl. Basistag)** € 80,00 
+    - Frist: 22.4.2025
+    - **5 Kursraten A1-A5** 5 Raten x € 220,00
+    - Zahlung: 5 Monatsraten
+   storno: |
+    ### Widerruf & Storno
+    - 14 Tage Widerruf
+    - bis 10 Tage nach Basistag kostenfreies Storno A1-A5   
 product:
  header: |
   ## 6 Kurseinheiten
