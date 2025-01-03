@@ -40,11 +40,12 @@ details:
     - **A0 Anmeldegebühr (inkl. Basistag)** € 80,00 
     - Frist: 5.5.2025
     - **5 Kursraten A1-A5** 5 Raten x € 220,00
-    - Zahlung: 5 Monatsraten
+    - Zahlung: 2 Raten 10. Mai, 2 Raten 10. Aug, 1 Rate 10. Nov 2025
    storno: |
     ### Widerruf & Storno
-    - 14 Tage Widerruf
-    - danach Bezahlung A1/A2 (29.5 bis 1.6.2025) obligatorisch, bis 11.6.2025 kostenfreies Storno der Teilnahme A3-A5
+    -14-tägiges Widerrufsrecht ab Datum der Anmeldung
+    -bis 5.5.2025 kostenfreies Storno
+    -danach Bezahlung A1/A2 (29.5 bis 1.6.2025) obligatorisch, bis 11.6.2025 kostenfreies Storno der Teilnahme A3-A5
 product:
  header: |
   ## 6 Kurseinheiten in 3 Blocks
