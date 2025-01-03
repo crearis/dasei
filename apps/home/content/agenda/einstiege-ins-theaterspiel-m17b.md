@@ -82,7 +82,7 @@ items:
   ctype: event
   shortcode: a2 
   title: Arbeiten mit dem Zwei-Kreise-Modell **die Bühne kommt von selbst**
-  tag: (Fortsetzung: Do., 29.5. bis So., 1.6 )
+  tag: "(Fortsetzung: Do., 29.5. bis So., 1.6)"
   image: 
    url: https://res.cloudinary.com/little-papillon/image/upload/w_400/v1676100503/dasei/377_dasei2022_I8A6515_p6aee7.jpg
    caption: Foto die Bühne kommt von selbst
@@ -120,7 +120,7 @@ items:
  a5_1294:
   ctype: event
   shortcode: a5
-  tag: (Fortsetzung: Do., 25.9. bis So., 28.9)
+  tag: "(Fortsetzung: Do., 25.9. bis So., 28.9)"
   title: Stückentwicklung basierend auf Mitspieltheater **Figurenkarussell**
   image: 
    url: https://res.cloudinary.com/little-papillon/image/upload/v1676100144/dasei/figurenkarussell.jpg
