@@ -9,27 +9,27 @@ navigation: false
 
 Gemäß § 28 BDSG widerspreche ich jeder kommerziellen Verwendung und Weitergabe meiner Daten.
 
-Verantwortungsbereich: Das Impressum gilt nur für die Internetpräsenz unter der Adresse: https://dasei.eu (external link)
+Verantwortungsbereich: Das Impressum gilt nur für die Internetpräsenz unter der Adresse: https://dasei.eu
 
 Diensteanbieter: DAS Ei - Theaterpädagogisches Institut Bayern e.V.
 
 Registiert unter: Amtsgericht Nürnberg, Vereinsregister VR2614
 
-Verantwortliche Ansprechperson: Jürgen Blum (Erster Vorstand)
+Verantwortliche Ansprechperson: Rosalin Hertrich (Erster Vorstand)
 
 Anschrift: Fürtherstr. 174, 90429 Nürnberg
 
 elektronische Postadresse: info @ dasei .eu
 
-Schnelle elektronische und unmittelbare Kommunikation: Tel: 0911/7808476 Fax: 0911/3236691
+Schnelle elektronische und unmittelbare Kommunikation: Tel: 0911/7808476 
 
-Journalistisch-redaktionelle Verantwortung : Hans Dönitz, Fürtherstr. 174, 90429 Nürnberg
+Journalistisch-redaktionelle Verantwortung: Hans Dönitz, Fürtherstr. 174, 90429 Nürnberg
 
-Beansprucht wird Schutzrecht für: http://dasei.eu/styles/dasei/logo.gif(external link)
+Beansprucht wird Schutzrecht für: http://dasei.eu/logo.svg
 
 
 ## Urheberschutz und Nutzung
-Der Urheber räumt Ihnen ganz konkret das Nutzungsrecht ein, sich eine private Kopie für persönliche Zwecke anzufertigen. Nicht berechtigt sind Sie dagegen, die Materialien zu verändern und /oder weiter zu geben oder gar selbst zu veröffentlichen.
+Der Urheber räumt Ihnen ganz konkret das Nutzungsrecht ein, sich eine private Kopie für persönliche Zwecke anzufertigen. Nicht berechtigt sind Sie dagegen, die Materialien zu verändern und/oder weiter zu geben oder gar selbst zu veröffentlichen.
 
 Wenn nicht ausdrücklich anders vermerkt, liegen die Urheberrechte für Texte bei: Hans Dönitz
 
